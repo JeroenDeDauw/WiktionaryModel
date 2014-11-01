@@ -1,0 +1,27 @@
+{
+	"name": "wikibase/wiktionary-model",
+	"type": "library",
+	"license": "GPL-2.0+",
+	"authors": [
+		{
+			"name": "Jeroen De Dauw",
+			"email": "jeroendedauw@gmail.com",
+			"homepage": "http://jeroendedauw.com",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0",
+		"wikibase/data-model": "~2.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Wikibase\\Wiktionary\\Model\\": "src/"
+		}
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "0.1.x-dev"
+		}
+	}
+}
